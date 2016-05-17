@@ -1,8 +1,11 @@
 /*CLASES ESPECIALES*/
 
 .menu-fixed{
+	background: green;
+	color: white;
 	position: fixed;
 	top: 0;
+	width: 600px;
 }
 
 /*CLASES ESPECIALES*/
@@ -25,13 +28,19 @@
 		padding: 25px 40px;
 	}
 
+	#container-logo > p:nth-child(2){
+		float: right;
+	}
+
 header{
 	margin: 0 auto;
 	max-width: 600px;
 	padding: 0 20px;
 }
-	header > nav > ul{
-		background: yellow;
+	
+	header > nav{
+		background: tomato;
+		transition: all .5s;
 	}
 
 		header > nav > ul > li{

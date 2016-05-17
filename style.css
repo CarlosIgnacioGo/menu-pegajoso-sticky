@@ -1,0 +1,57 @@
+/*CLASES ESPECIALES*/
+
+.menu-fixed{
+	position: fixed;
+	top: 0;
+}
+
+/*CLASES ESPECIALES*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+#container-logo{
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 0 20px;
+}
+
+	#container-logo > p{
+		background: pink;
+		display: inline-block;
+		margin: 5px 0;
+		padding: 25px 40px;
+	}
+
+header{
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 0 20px;
+}
+	header > nav > ul{
+		background: yellow;
+	}
+
+		header > nav > ul > li{
+			display: inline-block;
+			padding: 15px;
+		}
+
+		header > nav > ul > li:hover{
+			background: orange;
+		}
+
+#container{
+	background: red;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 0 20px;
+}
+
+	#container > p{
+		text-align: justify;
+		font-size: 1.2em;
+		margin-top: 20px;
+	}
